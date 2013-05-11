@@ -6,7 +6,8 @@ module.exports = {
     },
 
     testConfigFile: function(test) {
-        // Create a new logger with the initial configuration
+        // Create a new logger with the initial configuration, that is not
+        // the default one (we'll use test-logging-config.json instead)
         var logger = require("../lib/logger.js").init(function() {
             return("./test/test-logging-config.json");
         });

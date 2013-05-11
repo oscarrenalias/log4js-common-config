@@ -1,6 +1,8 @@
-var logger = require("../lib/logger");
+var logger = require("../../lib/logger");
 
-// You can play with configuration in file app-logging.json in the root of this ap
+/**
+ * Play with log levels in file app-logging.json to see how that affects logging
+ */
 var log = logger.get("net.renalias.log4js.sample");
 log.info("This is logged with INFO priority");
 log.warn("This is logged with WARN priority");

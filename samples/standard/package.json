@@ -1,7 +1,7 @@
 {
     "name": "app-logger-sample",
     "version": "0.1.0",
-    "description": "log4js-app-config sample application",
+    "description": "log4js-app-config sample application using standard configuration",
     "devDependencies": {
         "grunt": "~0.4.1",
         "grunt-contrib-jshint": "~0.3.0",

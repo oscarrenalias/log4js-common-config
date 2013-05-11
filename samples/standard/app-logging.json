@@ -6,6 +6,6 @@
     ],
 
     "levels": {
-        "net.renalias.log4js.sample": "ERROR"
+        "net.renalias.log4js.sample": "WARN"
     }
 }
