@@ -1,7 +1,7 @@
 {
     "name": "log4js-config",
-    "version": "0.1.0",
-    "description": "This applications's wrapper for log4js",
+    "version": "0.1.1",
+    "description": "A simple common configuration library for log4js",
     "main": "lib/logger.js",
     "dependencies": {
         "log4js": "~0.6.2",
@@ -14,7 +14,7 @@
         "nodeunit": "= 0.7.4"
     },
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "grunt test"
     },
     "repository": "",
     "author": "Oscar Renalias",
