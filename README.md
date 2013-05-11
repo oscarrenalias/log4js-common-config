@@ -26,7 +26,7 @@ Logging
 Add the following module import statement at the top of the entry point of your application:
 
 ```
-var logger = require("log4js-common");
+var logger = require("log4js-config");
 ```
 
 This will automatically configure logging in your application using a file called ```app-logging.json```, which should
@@ -50,13 +50,13 @@ that will return the correct name and location of the log4js configuration file 
 method:
 
 ```
-var logger = require("log4js-common").init(function() {
+var logger = require("log4js-config").init(function() {
     return("./settings/logging-config.json");
 });
 ```
 
 It is only necessary to do this once, preferably near or at the very top of the entry point to your application. Subsequent
-calls to ```require("log4js-common")``` will use the non-standard configuration automatically.
+calls to ```require("log4js-config")``` will use the non-standard configuration automatically.
 
 Testing
 -------
